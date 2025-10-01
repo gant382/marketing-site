@@ -10,7 +10,6 @@ COPY styles.css /usr/share/nginx/html/
 COPY script.js /usr/share/nginx/html/
 COPY config.js /usr/share/nginx/html/
 COPY config.json /usr/share/nginx/html/
-COPY README.md /usr/share/nginx/html/
 
 # Create nginx configuration for SPA routing
 RUN echo 'server { \
